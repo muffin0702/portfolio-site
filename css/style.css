@@ -1,0 +1,217 @@
+html {
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+body {
+  margin: 0;
+  color: #24292e;
+  font-family: Hiragino Kaku Gothic ProN;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+  font-size: 0.9rem;
+  padding: 0 4%;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+/* Header */
+#header {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 270px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.header-ul {
+  display: flex;
+  padding: 10px 0;
+}
+
+.header-li {
+  font-size: 0.9rem;
+  margin-left: 30px;
+}
+
+.header-li a {
+  color: #24292e;
+  display: block;
+}
+
+.header-li a:hover {
+  opacity: 0.7;
+} 
+
+
+.title {
+  color: #2B3137;
+  line-height: 1px;
+}
+
+.insta-icon {
+  width: 20px;
+}
+
+/* Main Image */
+#main-img {
+  margin-bottom: 80px;
+}
+
+
+.main-img {
+  width: 100%;
+  max-width: 1920px;
+  height: 420px;
+  object-fit: cover;
+}
+
+/* About */
+#about p {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+#about ul {
+  margin-bottom: 30px;
+  padding-left: 0;
+}
+
+#about li:first-child {
+  margin-bottom: 30px;
+}
+
+
+/* Works */
+#works ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+#works li {
+  width: 31%;
+  margin-bottom: 23px;
+}
+
+
+/* News */
+/* .row {
+  display: flex;
+  width: 100%;
+  border-top: solid 1px #c8c8c8;
+  margin: 0 auto;
+}
+
+.row:last-child {
+  border-bottom: solid 1px #c8c8c8;
+}
+
+.date {
+  padding-left: 15px;
+}
+
+.text {
+  margin-left: 80px;
+  padding: 0;
+} */
+
+#news dl {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid 1px #c8c8c8;
+  margin-bottom: 20px;
+}
+#news dt {
+  width: 20%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+}
+#news dd {
+  width: 80%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+}
+
+
+/* Contact */
+form {
+  width: 100%;
+}
+#contact input,
+#contact textarea {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+}
+
+#contact label {
+  width: 15%;
+}
+
+#contact input {
+  margin-bottom: 10px;
+}
+
+#contact textarea {
+  height: 10rem;
+  resize: none;
+}
+
+.contact-row {
+  width: 100%;
+  display: flex;
+}
+
+#contact .button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#contact .button input {
+  width: 200px;
+  background-color: #24292e;
+  color: #fff;
+  padding: 15px 0;
+  border: solid 1px #24292e;
+}
+
+#contact .button input:hover {
+  background: #fff;
+  color: #24292e;
+}
+
+/* Footer */
+#footer {
+  background-color: #24292e;
+  color: #fff;
+  font-size: 0.5rem;
+  padding: 10px 20px;
+  text-align: center;
+}
